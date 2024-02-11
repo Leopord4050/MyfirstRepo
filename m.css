@@ -1,0 +1,37 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: pink;
+}
+.link{
+    background-color:lightblue;
+    width: 100%;
+    float: left;
+    height:50%;
+}
+ul{
+    display: flex;
+    float: left;
+    width: 100%;
+    justify-content: center;
+}
+ul li{
+    
+    list-style:none;
+    align-items: center;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, 'Times New Roman';
+    font-weight: bold;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:20px;
+}
+ul li a:hover{
+    color: red;
+    text-decoration:underline;

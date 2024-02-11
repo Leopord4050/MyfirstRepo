@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="m.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Form, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div class="link">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">DESIGN</a></li>
+            <li><a href="#">CONTACT_US</a></li>
+        </ul>
+    </div>
+    <form>
+        <fieldset style="margin-left:20%;margin-right:20%;height:70%;
+background-color:pink;border-color:blue;border-width:5px;border-radius:30px;">    
+          <legend align="center"><h2>Student registration form</h2></legend>
+          <table align="center">
+            <tr>
+                <td>Last name:</td>
+                <td><input type="text" name="n1"></td>
+            </tr>
+            <tr>
+                <td>First name:</td>
+                <td><input type="text" name="n2"></td>
+            </tr>
+            <tr>
+                <td>Date of birth:</td>
+                <td><input type="date" name="n3"></td>
+        
+            <tr>
+                <td>Telephone:</td>
+                <td><input type="number" name="n4"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="n5"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="n6"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="male">Male</td></tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>
+                        <textarea type="text" name="n7"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Trade</td><td><select>
+                            <option selected>names of trade</option>
+                            <option>Software development</option>
+                            <option>Networking</option>
+                            <option>Computer system</option>
+                        </select></td></tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="checkbox" name="n8">Single
+                                <input type="checkbox" name="n8">Marriage
+                                <input type="checkbox" name="n8">Other
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><br><br>
+                                <input type="file" name="upload1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><br><br><br>
+                                <input type="reset" value="Cancel">
+                                <input type="submit" value="Save">
+                            </td>
+                        </tr>
+
+          </table>
+        </fieldset>
+    </form>
+</body>
+</html>
